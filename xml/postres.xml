@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<platos>
+<plato nombre="Tarta de manzana y canela" precio="4.50" descripcion="Una deliciosa tarta de manzana con un toque de canela, servida con helado de vainilla" caracteristica="" kcal="800">
+    <ingrediente nombre="Manzanas frescas" />
+    <ingrediente nombre="Azúcar, canela" />
+    <ingrediente nombre="Mantequilla" />
+    <ingrediente nombre="Harina, huevo, leche" />
+    <ingrediente nombre="Helado de vainilla" />
+  </plato>
+    <plato nombre="Brownie de chocolate" precio="5.50" descripcion="Postre de chocolate, esponjoso por dentro y crujiente por fuera, servido con una bola de helado de chocolate" caracteristica="" kcal="1000">
+    <ingrediente nombre="Chocolate negro" />
+    <ingrediente nombre="Mantequilla" />
+    <ingrediente nombre="Azúcar" />
+    <ingrediente nombre="Harina, huevo, sal" />
+    <ingrediente nombre="Helado de chocolate" />
+  </plato>
+  <plato nombre="Tiramisú" precio="4.50" descripcion=" Postre italiano hecho con capas de bizcocho empapado en café y licor, y crema de queso mascarpone." caracteristica="" kcal="800">
+    <ingrediente nombre="Café" />
+    <ingrediente nombre="Licor de café" />
+    <ingrediente nombre="Bizcochos de soletilla" />
+    <ingrediente nombre="Queso mascarpone" />
+    <ingrediente nombre="Azúcar, huevos" />
+    <ingrediente nombre="Cacao en polvos" />
+  </plato>
+    <plato nombre="Brownie de chocolate" precio="5.50" descripcion="Postre de chocolate, esponjoso por dentro y crujiente por fuera, servido con una bola de helado de chocolate" caracteristica="" kcal="1000">
+    <ingrediente nombre="Chocolate negro" />
+    <ingrediente nombre="Mantequilla" />
+    <ingrediente nombre="Azúcar" />
+    <ingrediente nombre="Harina, huevo, sal" />
+    <ingrediente nombre="Helado de chocolate" />
+  </plato>
+    <plato nombre="Bolas de helado al gusto" precio="6.50" descripcion="Deliciosas bolas de helado, pregunten al camarero" caracteristica="" kcal="900">
+    <ingrediente nombre="Azúcar" />
+  </plato>
+  <plato nombre="Fanta de limón" precio="2.00" descripcion="Fanta de limón" caracteristica="" kcal="300">
+  </plato>
+    <plato nombre="Fanta de naranja" precio="2.00" descripcion="Fanta de naranja" caracteristica="" kcal="300">
+  </plato>
+    <plato nombre="Coca Cola" precio="2.00" descripcion="Coca cola" caracteristica="" kcal="400">
+  </plato>
+    <plato nombre="Coca cola zero" precio="2.00" descripcion="Coca cola zero" caracteristica="" kcal="10">
+  </plato>
+  <plato nombre="Agua" precio="2.00" descripcion="Agua mineral" caracteristica="" kcal="1">
+  </plato>
+  <plato nombre="Copa de cerveza" precio="2.00" descripcion="Copa de cerveza de tirador Estrella Damm" caracteristica="" kcal="480">
+  </plato>
+  <plato nombre="Vino de la casa" precio="6.00" descripcion="Vino tinto o blanco de la casa" caracteristica="" kcal="350">
+  </plato>
+</platos>
