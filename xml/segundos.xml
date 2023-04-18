@@ -1,5 +1,5 @@
   <platos>
-  <plato nombre="Hamburguesa ETE" precio="7.50" descripcion="Doble burguer, lechuga, tomate, queso cheddar y cebolla crujiente" caracteristica="" kcal="487 kcal">
+  <plato nombre="Hamburguesa ETE🥩" precio="7.50" descripcion="Doble burguer, lechuga, tomate, queso cheddar y cebolla crujiente" caracteristica="" kcal="487 kcal">
     <ingrediente nombre="Pan🥖" />
     <ingrediente nombre="Doble burguer" />
     <ingrediente nombre="Lechuga" />
@@ -7,7 +7,7 @@
     <ingrediente nombre="Queso cheddar" />
     <ingrediente nombre="Cebolla" />
   </plato>
-  <plato nombre="Hamburguesa Luna" precio="8.75" descripcion="Lechuga, tomate, cebolla caramelizada, salsa miel y mostaza y burger de pollo rebozada" caracteristica="" kcal="545 kcal">
+  <plato nombre="Hamburguesa Luna🥩" precio="8.75" descripcion="Lechuga, tomate, cebolla caramelizada, salsa miel y mostaza y burger de pollo rebozada" caracteristica="" kcal="545 kcal">
     <ingrediente nombre="Pan🥖" />
     <ingrediente nombre="Lechuga" />
     <ingrediente nombre="Tomate " />
@@ -15,7 +15,7 @@
     <ingrediente nombre="Salsa miel y mostaza" />
     <ingrediente nombre="Burguer de pollo rebozado" />
   </plato>
-  <plato nombre="Bocadillo Cruz" precio="5.50" descripcion="Bocadillo de ternera con salteado de pimiento, cebolla y mozzarella" caracteristica="" kcal="337 kcal">
+  <plato nombre="Bocadillo Cruz🥩" precio="5.50" descripcion="Bocadillo de ternera con salteado de pimiento, cebolla y mozzarella" caracteristica="" kcal="337 kcal">
     <ingrediente nombre="Pan🥖" />
     <ingrediente nombre="Cebolla dulce" />
     <ingrediente nombre="Pimiento rojo en tiras" />
@@ -26,7 +26,7 @@
     <ingrediente nombre="Tomillo" />
     <ingrediente nombre="Aceite de oliva virgen extra" />
   </plato>
-  <plato nombre="Bocadillo al chile(2 personas)" precio="5.50" descripcion="Bocadillo de tinga de pollo al chile chipotle" caracteristica="" kcal="330 kcal">
+  <plato nombre="Bocadillo al chile(2 personas)🥩" precio="5.50" descripcion="Bocadillo de tinga de pollo al chile chipotle" caracteristica="" kcal="330 kcal">
     <ingrediente nombre="4 panecillos tiernos🥖" />
     <ingrediente nombre="250 g de cebolla blanca en juliana" />
     <ingrediente nombre="Tomate maduro en trozos" />
@@ -35,7 +35,7 @@
     <ingrediente nombre="2 g de comino molido" />
     <ingrediente nombre="Aceite de oliva virgen extra" />
   </plato>
-  <plato nombre="Bocadillo de gambas" precio="6.50" descripcion="Bocadillo de gambas con wakame y sriracha" caracteristica="" kcal="376">
+  <plato nombre="Bocadillo de gambas🦐" precio="6.50" descripcion="Bocadillo de gambas con wakame y sriracha" caracteristica="" kcal="376">
     <ingrediente nombre="Panecillo tipo viena🥖" />
     <ingrediente nombre="6 colas de gambas o langostinos" />
     <ingrediente nombre="1 cucharada de salsa sriracha" />

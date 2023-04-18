@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
 <platos>
-  <plato nombre="Tartar de atún" precio="9.00" descripcion="Deliciosa opción de entrante que combina trozos de atún crudo de alta calidad con aguacate, cebolla roja, aceite de oliva, jugo de limón y cilantro. " caracteristicas="" kcal="550">
+  <plato nombre="Tartar de atún🦐" precio="9.00" descripcion="Deliciosa opción de entrante que combina trozos de atún crudo de alta calidad con aguacate, cebolla roja, aceite de oliva, jugo de limón y cilantro. " caracteristicas="" kcal="550">
     <ingrediente nombre="Atún" />
     <ingrediente nombre="Aceite de oliva" />
     <ingrediente nombre="Cebolla" />
     <ingrediente nombre="Cilantro" />
     <ingrediente nombre="Tomate" />
   </plato>
-<plato nombre="Croquetas de jamón" precio="8.00" descripcion="Clásico de la cocina española, deliciosas croquetas caseras de jamón" caracteristicas="" kcal="800">
+<plato nombre="Croquetas de jamón🥩" precio="8.00" descripcion="Clásico de la cocina española, deliciosas croquetas caseras de jamón" caracteristicas="" kcal="800">
     <ingrediente nombre="Jamón" />
     <ingrediente nombre="Harina" />
     <ingrediente nombre="Aceite de oliva" />
     <ingrediente nombre="Huevo" />
     <ingrediente nombre="Pan rayado" />
   </plato>
-  <plato nombre="Ensalada caprese" precio="7.95" descripcion="Ensalada fresca y ligera, que combina tomates frescos, mozzarella de búfala y hojas de albahaca. " caracteristicas="Vegano" kcal="300">
+  <plato nombre="Ensalada caprese🌱" precio="7.95" descripcion="Ensalada fresca y ligera, que combina tomates frescos, mozzarella de búfala y hojas de albahaca. " caracteristicas="Vegano" kcal="300">
     <ingrediente nombre="Ensalada" />
     <ingrediente nombre="Tomates" />
     <ingrediente nombre="Mozzarella" />
     <ingrediente nombre="Albahaca" />
     <ingrediente nombre="Aceite de oliva" />
   </plato>
-<plato nombre="Hummus de garbanzos" precio="5.50" descripcion="Una deliciosa mezcla de garbanzos, tahini, aceite de oliva y jugo de limón, servida con pan de pita caliente." caracteristica="Vegano" kcal="200">
+<plato nombre="Hummus de garbanzos🌱" precio="5.50" descripcion="Una deliciosa mezcla de garbanzos, tahini, aceite de oliva y jugo de limón, servida con pan de pita caliente." caracteristica="Vegano" kcal="200">
     <ingrediente nombre="Garbanzos" />
     <ingrediente nombre="Tahini" />
     <ingrediente nombre="Aceite de oliva" />
@@ -29,13 +29,13 @@
     <ingrediente nombre="Ajo" />
     <ingrediente nombre="Pan de pita" />
   </plato>
-  <plato nombre="Calamares a la romana" precio="8.50" descripcion="Calamares fritos con una masa crujiente de harina y especias" caracteristica="" kcal="420">
+  <plato nombre="Calamares a la romana🦐" precio="8.50" descripcion="Calamares fritos con una masa crujiente de harina y especias" caracteristica="" kcal="420">
     <ingrediente nombre="Calamares" />
     <ingrediente nombre="Harina" />
     <ingrediente nombre="Perejil" />
     <ingrediente nombre="Ajo" />
   </plato>
-  <plato nombre="Carpaccio de ternera" precio="9.50" descripcion="Finas láminas de ternera cruda, servidas con rúcula, queso parmesano y aceite de oliva." caracteristica="" kcal="300">
+  <plato nombre="Carpaccio de ternera🥩" precio="9.50" descripcion="Finas láminas de ternera cruda, servidas con rúcula, queso parmesano y aceite de oliva." caracteristica="" kcal="300">
     <ingrediente nombre="Ternera" />
     <ingrediente nombre="Rúcula" />
     <ingrediente nombre="Queso parmesano" />

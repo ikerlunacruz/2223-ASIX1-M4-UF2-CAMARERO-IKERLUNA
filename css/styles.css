@@ -5,6 +5,7 @@ body{
 }
 *{
   box-sizing: border-box;
+  border-radius: 3px;
   background-color: black;
   border: 1px solid red;
   font-family: 'Noto Serif', serif;
