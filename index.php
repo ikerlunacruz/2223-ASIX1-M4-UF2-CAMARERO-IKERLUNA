@@ -15,6 +15,13 @@
 </head>
 <body>
     <h1>🍔HAMBURGUESERÍA LUNA🍔</h1>
+    <style>
+      body {
+        background-image: url('./img/fondo.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
     <div class="column-3 columns">
         <div class="menu-restaurante">
             <h2>ENTRANTES🥗</h2>
