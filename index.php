@@ -26,17 +26,18 @@
         <div class="menu-restaurante">
             <h2>ENTRANTES🥗</h2>
             <?php
-            /* Enlace al primer XML */
-            if (file_exists('./xml/entrantes.xml')) {
-                $platos = simplexml_load_file('./xml/entrantes.xml');
-                foreach ($platos->plato as $plato) {
-                    echo "<strong>" . $plato['nombre'] . "</strong><br>";
-                    echo "Precio: €" . $plato['precio'] . "<br>";
-                    echo "Descripción: " . $plato['descripcion'] . "<br>";
-                    echo "Calorías: " . $plato['kcal'] . "<br>";
+            /* Primer XML */
+            if (file_exists('./xml/cartarestaurante.xml')) {
+                $platos = simplexml_load_file('./xml/cartarestaurante.xml');
+                foreach ($platos->entrantes as $entrantes) {
+                    echo "<strong>" . $entrantes['nombre'] . "</strong><br>";
+                    echo "" . $entrantes['descripcion'] . "<br>";
+                    echo "Calorías: " . $entrantes['kcal'] . "<br>";
+                    echo "Precio: €" . $entrantes['precio'] . "<br>";
                     echo "Ingredientes:<br>";
-                    foreach ($plato->ingrediente as $ingrediente) {
-                        echo "- " . $ingrediente['nombre'] . "<br>";
+                foreach ($entrantes->ingrediente as $ingrediente) {
+                    echo "- " . $ingrediente['nombre'] . "<br>";
+
                     }
                     echo "<br>";
                 }
@@ -46,38 +47,56 @@
             ?>
         </div>
     <div class="menu-restaurante">
-    <h2>POSTRES Y BEBIDAS🥤</h2>
-    <?php
-/* Enlace al segundo XML */
-if (file_exists('./xml/postres.xml')) {
-    $platos = simplexml_load_file('./xml/postres.xml');
-    foreach ($platos->plato as $plato) {
-        echo "<strong>" . $plato['nombre'] . "</strong><br>";
-        echo "Precio: €" . $plato['precio'] . "<br>";
-        echo "Descripción: " . $plato['descripcion'] . "<br>";
-        echo "Calorías: " . $plato['kcal'] . "<br><br>";
+            <h2>🧁POSTRES Y BEBIDAS🥤</h2>
+            <?php
+            /* Segundo XML */
+            if (file_exists('./xml/cartarestaurante.xml')) {
+            $platos = simplexml_load_file('./xml/cartarestaurante.xml');
+            foreach ($platos->postres as $postres) {
+                echo "<strong>" . $postres['nombre'] . "</strong><br>";
+                echo "  " . $postres['descripcion'] . "<br>";
+                echo "Calorías: " . $postres['kcal'] . "<br>";
+                echo "Precio: €" . $postres['precio'] . "<br>";
+                echo "Ingredientes:<br>";
+            foreach ($postres->ingrediente as $ingrediente) {
+                echo "- " . $ingrediente['nombre'] . "<br>";
+
+        }
+        echo "<br>";
+    }
+} else {
+    exit('¡Restaurante fuera de servicio!.');
+}
+            if (file_exists('./xml/cartarestaurante.xml')) {
+            $platos = simplexml_load_file('./xml/cartarestaurante.xml');
+            foreach ($platos->bebidas as $bebidas) {
+                echo "<strong>" . $bebidas['nombre'] . "</strong><br>";
+                echo "Calorías: " . $bebidas['kcal'] . "<br>";
+                echo "Precio: €" . $bebidas['precio'] . "<br>";
+                echo "<br>";
     }
 } else {
     exit('¡Restaurante fuera de servicio!.');
 }
 ?>
     </div>
-    <div class="menu-restaurante">
-    <h2>HAMBURGUESAS🍔</h2>
-    <?php
-/* Enlace al tercer XML */
-if (file_exists('./xml/segundos.xml')) {
-    $platos = simplexml_load_file('./xml/segundos.xml');
-    foreach ($platos->plato as $plato) {
-        echo "<strong>" . $plato['nombre'] . "</strong><br>";
-        echo "Precio: €" . $plato['precio'] . "<br>";
-        echo "Descripción: " . $plato['descripcion'] . "<br>";
-        echo "Calorías: " . $plato['kcal'] . "<br>";
-        echo "Ingredientes:<br>";
-        foreach ($plato->ingrediente as $ingrediente) {
-            echo "- " . $ingrediente['nombre'] . "<br>";
+            <div class="menu-restaurante">
+            <h2>HAMBURGUESAS🍔</h2>
+            <?php
+            /* Tercer XML */
+            if (file_exists('./xml/cartarestaurante.xml')) {
+            $platos = simplexml_load_file('./xml/cartarestaurante.xml');
+            foreach ($platos->segundos as $segundos) {
+                echo "<strong>" . $segundos['nombre'] . "</strong><br>";
+                echo "" . $segundos['descripcion'] . "<br>";
+                echo "Calorías: " . $segundos['kcal'] . "<br>";
+                echo "Precio: €" . $segundos['precio'] . "<br>";
+                echo "Ingredientes:<br>";
+            foreach ($segundos->ingrediente as $ingrediente) {
+                echo "- " . $ingrediente['nombre'] . "<br>";
+
         }
-        echo "<br>";
+                echo "<br>";
     }
 } else {
     exit('¡Restaurante fuera de servicio!.');
